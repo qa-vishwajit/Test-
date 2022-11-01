@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Actual Result matches Expected result:MacBook]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-11-01T18:07:50 IST" name="Default suite" finished-at="2022-11-01T18:08:12 IST" duration-ms="22129">
+    <groups>
+    </groups>
+    <test started-at="2022-11-01T18:07:50 IST" name="Default test" finished-at="2022-11-01T18:08:12 IST" duration-ms="22129">
+      <class name="Test2.Test2.Test2">
+        <test-method is-config="true" signature="intilizeBrowser()[pri:0, instance:Test2.Test2.Test2@2e005c4b]" started-at="2022-11-01T18:07:50 IST" name="intilizeBrowser" finished-at="2022-11-01T18:07:58 IST" duration-ms="8303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intilizeBrowser -->
+        <test-method is-config="true" signature="perform()[pri:0, instance:Test2.Test2.Test2@2e005c4b]" started-at="2022-11-01T18:07:58 IST" name="perform" finished-at="2022-11-01T18:08:11 IST" duration-ms="13046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- perform -->
+        <test-method signature="Test()[pri:0, instance:Test2.Test2.Test2@2e005c4b]" started-at="2022-11-01T18:08:11 IST" name="Test" finished-at="2022-11-01T18:08:12 IST" duration-ms="348" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Actual Result matches Expected result:MacBook]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method is-config="true" signature="logoutApplication(org.testng.ITestResult)[pri:0, instance:Test2.Test2.Test2@2e005c4b]" started-at="2022-11-01T18:08:12 IST" name="logoutApplication" finished-at="2022-11-01T18:08:12 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test status=SUCCESS method=Test2.Test()[pri:0, instance:Test2.Test2.Test2@2e005c4b] output=Actual Result matches Expected result:MacBook]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutApplication -->
+        <test-method is-config="true" signature="close_browser()[pri:0, instance:Test2.Test2.Test2@2e005c4b]" started-at="2022-11-01T18:08:12 IST" name="close_browser" finished-at="2022-11-01T18:08:12 IST" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- Test2.Test2.Test2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
